@@ -1,0 +1,93 @@
+<!DOCTYPE html >
+<html>
+<head>
+  <meta charset="utf-8" >
+   <title>Domino's Pizza : Pizza on Delivery</title>
+</head>
+
+<body bgcolor="#eaf08a">
+
+<U><h1>DOMINO'S PIZZA DELIVERY SITE</h1></U>
+
+
+<b><p>KINI TERSEDIA MENU BARU!!!</p></b>
+<b><p>HOT MACARONI PIZZA WITH EXTRA CHEESE</p></b>
+<b><p>PESAN SEKARANG!!</p></b>
+<li><img src="OIP (3).jfif"><img src="OIP.jfif"><img src="download (1).jfif"><img src="OIP (2).jfif"><img src="OIP (1).jfif"></li>
+
+<form action="http://www.dominipizza.com/pizza.php" method="post">
+
+<fieldset>
+<legend>Informasi Anda</legend>
+<ul>
+<li><label for="form-name">Nama:</label> <input type="text" name="customername" id="form-name"></li>
+<li><label for="form-address">Alamat:</label> <input type="text" name="address" id="form-address"></li>
+<li><label for="form-tel">No. Handphone:</label> <input type="tel" name="telephone" id="form-tel"></li>
+<li><label for="form-email">Email: <input type="email" name="email" id="form-email"></label></li>
+<li>Keterangan:<br>
+<textarea name="instructions" rows="4" cols="60" maxlength="200" id="form-story" placeholder="tidak lebih dari 200 kata"></textarea></li>
+</ul>
+</fieldset>
+
+<h2>Racik Pizza Pilihan Anda :</h2>
+
+<fieldset>
+<legend>Keterangan Pizza
+
+</legend><fieldset>
+<legend> Crust :</legend>
+  <ul>
+  <li><label><input type="radio" name="crust" value="thin crust">
+  Thin Crust 
+  </label></li>
+  <li><input type="radio" name="crust" value="brooklyn style" checked> 
+  Brooklyn Style</li>
+  <li><input type="radio" name="crust" value="cheese-stuffed crust">
+  Cheese-stuffed Crust
+  </li>
+  <li><input type="radio" name="crust" value="gluten free crust">
+  Gluten Free Crust
+  </li>
+  </ul>
+</fieldset>
+
+<fieldset>
+<legend>Topping</legend>
+  <ul>
+  <li><input type="checkbox" name="toppings[]" value="sausage "> 
+  Sausage</li>
+  <li><input type="checkbox" name="toppings[]" value="extra sausage" checked>
+  Extra Sausage
+  </li>
+  <li><input type="checkbox" name="toppings[]" value="melted cheese" checked>
+  Melted Cheese  
+  </li>
+  <li><input type="checkbox" name="toppings[]" value="hot sauce"> 
+  Hot Sauce
+  </li>
+  <li><input type="checkbox" name="toppings[]" value="extra hot sauce" checked > 
+  Extra Hot Sauce  </li>
+  <li><input type="checkbox" name="toppings[]" value="mayo sauce">
+  Mayo Sauce
+  </li>
+   </ul>
+</fieldset>
+
+<fieldset>
+<p>Kuantitas: 
+  <select name="pizzas" size="1">
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+</select>
+</p>
+</fieldset>
+
+</fieldset>
+
+<p><input type="submit" value="Selesai">
+<input type="reset"></p>
+</form>
+</body>
+</html>
